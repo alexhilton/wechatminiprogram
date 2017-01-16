@@ -1,0 +1,79 @@
+/* pages/calendar/calendar.wxss */
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.title {
+    width: 100%;
+    background: white;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+}
+
+.luck {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.good {
+    background: #ffee44;
+    color: #4b4b4b;
+}
+
+.caption {
+    text-align: center;
+    padding: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    align-items: center;
+}
+
+.bad {
+    background: #ff4444;
+    color: white
+}
+
+.good-luck-detail {
+    display: flex;
+    flex-direction: column;
+    background: #ffddd3;
+    flex: 1;
+}
+
+.bad-luck-detail {
+    display: flex;
+    flex-direction: column;
+    background: #ffffaa;
+    flex: 1
+}
+
+.luck-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.luck-title {
+    color: black
+}
+
+.luck-description {
+    color: #666;
+    font-size: 90%
+}
+
+.line {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+}

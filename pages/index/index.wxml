@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{apps}}">
+      <text class="app-title" data-page="{{item.page}}" bindtap="jumpToPage">{{item.title}}</text>
+  </view>
+</view>

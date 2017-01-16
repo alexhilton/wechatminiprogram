@@ -1,0 +1,33 @@
+<view class="container">
+    <text class="title">{{today}}</text>
+    <view class="luck">
+        <view class="good caption">
+            <text>宜</text>
+        </view>
+        <view class="good-luck-detail">
+            <view class="luck-detail" wx:for="{{goods}}">
+                <text class="luck-title">{{item.title}}</text>
+                <text class="luck-description">{{item.description}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="luck">
+        <view class="bad caption">
+            <text>忌</text>
+        </view>
+        <view class="bad-luck-detail">
+            <view class="luck-detail" wx:for="{{bads}}">
+                <text class="luck-title">{{item.title}}</text>
+                <text class="luck-description">{{item.description}}</text>
+            </view>
+        </view>
+        
+    </view>
+    
+    <text class="line">座位朝向：面向{{direction}}写程序，BUG最少。</text>
+    
+    <text class="line">今日宜饮：{{drinks}}</text>
+
+    <text class="line">女神亲近指数：{{girls_index}}</text>
+
+</view>
